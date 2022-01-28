@@ -26,7 +26,7 @@ export default function Projects() {
                 <p className="description-project">
                   { description }
                 </p>
-                <p className="link-to-project"><Link to={{ pathname: link }} target="_blank">Link para o repositório</Link></p>
+                <p className="link-to-project"><a href={ link } target="_blank" rel="noreferrer">Link para o repositório</a></p>
               </div>
             )
           })
