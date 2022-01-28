@@ -22,7 +22,7 @@ export default function AboutMe() {
           </p>
           <p className="description-me">
             <b>
-            Venho me dedicando a sempre está evoluindo meus conhecimentos e praticando o aprendizado.
+              Me dedico sempre a evoluir meus conhecimentos e praticar o aprendizado.
             </b> 
           </p>
         </div>
