@@ -78,7 +78,7 @@ export default function SlideSkill() {
         </div>
       </div>
       <div className="current-knowledge">
-        <h6>Atualmente estou aprimorando meus conhecimentoo em banco de dados SQL, NodeJS e TypeScript para o Back-end. 🌱</h6>
+        <h6>Atualmente estou aprimorando meus conhecimentos em banco de dados SQL, NodeJS e TypeScript para o Back-end. 🌱</h6>
       </div>
     </>
   );

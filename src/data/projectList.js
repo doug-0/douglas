@@ -15,7 +15,7 @@ export const arrayDataProjects = [
     id: 3,
     project: "Projeto Portfólio",
     link: "https://github.com/Doug77/portfolio-project",
-    description: "Esta pagina em que você está navegando faz parte de um dos projetos que desenvolvi!"
+    description: "Esta página em que você está navegando faz parte de um dos projetos que desenvolvi!"
   },
   {
     id: 4,
