@@ -1,0 +1,39 @@
+.main-page {
+  background-image: url('../../img/background/Sem_titulo-1.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  align-items: center;
+  padding-top: 75px;
+  padding-bottom: 60px;
+}
+
+.greeting {
+  font-size: 40px;
+  color: darkgray;
+}
+
+.my-name {
+  font-size: 60px;
+  color: lightgray;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hr-main {
+  width: 1000px;
+  border: 1px solid  #141414;
+}
+
+.hr-center {
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+}
+
+.img-developer-icon {
+  transition: 0.3s;
+}

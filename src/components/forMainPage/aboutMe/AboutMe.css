@@ -1,0 +1,63 @@
+.div-fade {
+  background-color: #333333;
+}
+
+.about-content {
+  background-color: #333333;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 100px 100px 200px 100px;
+}
+
+hr {
+  width: 150px;
+  border: 1px solid  #131313;
+}
+
+.about-me-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-my-name {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about {
+  width: 350px;
+  font-size: 35px;
+}
+ 
+
+.description-me {
+  font-size: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  line-height: 45px;
+}
+
+.full-stack {
+  color: black;
+  background-color: #fc6969;
+  padding: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 3px;
+}
+
+.front-end {
+  color: black;
+  background-color: #5151ee;
+  padding: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 3px;
+}
+
+.my-photo {
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 13px 7px 25px #232323;
+}

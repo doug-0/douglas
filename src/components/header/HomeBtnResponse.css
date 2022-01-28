@@ -1,0 +1,11 @@
+@media (max-width: 400px) {
+  .brackets {
+    color: #5252f8;
+    margin-left: 0;
+  }
+
+  .div-btn-home {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+}

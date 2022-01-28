@@ -1,0 +1,177 @@
+@media (max-width: 400px) {
+  .main-page {
+    background-image: none;
+    background-color: #333333;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 80px;
+  }
+
+  .img-developer {
+    display: none;
+  }
+  
+  .greeting {
+    font-size: 20px;
+    color: darkgray;
+  }
+
+  .greeting-hand {
+    width: 40px;
+  }
+  
+  .my-name {
+    font-size: 45px;
+    color: lightgray;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hr-main {
+    width: 1000px;
+    border: 1px solid  #141414;
+  }
+  
+  .hr-center {
+    background-color: #333333;
+    display: none;
+    justify-content: center;
+  }
+
+  .div-content-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+  }
+}
+
+@media (max-width: 1440px) and (min-width: 768px) {
+  .main-page {
+    background-image: url('../../img/background/Sem_titulo-1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 60px;
+  }
+
+  .img-developer-icon {
+    transition: 0.3s;
+    width: 500px;
+  }
+  
+  .greeting {
+    font-size: 40px;
+    color: darkgray;
+  }
+  
+  .my-name {
+    font-size: 60px;
+    color: lightgray;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .hr-main {
+    width: 1000px;
+    border: 1px solid  #141414;
+  }
+  
+  .hr-center {
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1290px) and (min-width: 768px) {
+  .main-page {
+    background-image: none;
+  }
+  
+  .greeting-hand {
+    width: 60px;
+  } 
+
+  .greeting {
+    font-size: 30px;
+    color: darkgray;
+  }
+
+  .my-name {
+    font-size: 45px;
+    color: lightgray;
+  }
+
+  .main-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-developer-icon {
+    transition: 0.3s;
+    width: 350px;
+  }
+
+  .img-developer {
+    width: 350px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .img-developer {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .main-page {
+    background-image: none;
+  }
+  
+  .greeting {
+    font-size: 25px;
+    color: darkgray;
+  }
+
+  .my-name {
+    font-size: 30px;
+    color: lightgray;
+  }
+
+  .greeting-hand {
+    width: 35px;
+  }
+
+  .my-typed-animation {
+    font-size: 35px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 650px) and (min-width: 401px) {
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .div-content-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

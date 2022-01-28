@@ -1,0 +1,38 @@
+@media (max-width: 400px) {
+  .my-typed-animation {
+    font-size: 20px;
+    margin: 120px 0px;
+    width: 300px;
+    height: 150px;
+  }
+  
+  span {
+    color: lightgray;
+  }
+}
+
+@media (max-width: 1440px) and (min-width: 768px) {
+  .my-typed-animation {
+    font-size: 35px;
+  }
+  
+  span {
+    color: lightgray;
+  }
+}
+
+@media (max-width: 650px) and (min-width: 401px) {
+  .div-content-main {
+    text-align: center; 
+  }
+
+  .my-typed-animation span {
+    font-size: 20px;
+  }
+
+  .my-typed-animation {
+    font-size: 40px;
+    margin-top: 250px;
+    width: 300px;
+  }
+}
