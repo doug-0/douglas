@@ -14,21 +14,23 @@ export default function AboutMe() {
       <div className="about-content" name="sobre" data-aos="fade-up">
         <div className="about-me-name about-div">
           <p className="about-my-name about">Sobre mim...</p>
-          <hr className="about-my-name" />
+          <div>
+            <hr className="about-my-name" />
+          </div>
         </div>
         <div className="about-div">
           <p className="description-me">
-            Sou <b>Desenvolvedor Web<span className="front-end">Front-End</span></b> e estou em busca de me tornar um <b>Desenvolvedor web <span className="full-stack">Full Stack</span></b>.    
+            Sou <b>Desenvolvedor Web<span className="front-end">Front-End</span></b> e estou em busca de me tornar um <b>Desenvolvedor web <span className="full-stack">Full Stack</span></b>.
           </p>
           <p className="description-me">
             <b>
               Me dedico sempre a evoluir meus conhecimentos e praticar o aprendizado.
-            </b> 
+            </b>
           </p>
         </div>
         <div className="about-div">
           <img
-          
+
             src="https://avatars.githubusercontent.com/u/83235564?v=4"
             alt="picture-doug"
             className="my-photo"

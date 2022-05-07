@@ -12,7 +12,7 @@
 
 hr {
   width: 150px;
-  border: 1px solid  #131313;
+  border: 1px solid #131313;
 }
 
 .about-me-name {
@@ -26,15 +26,15 @@ hr {
 }
 
 .about {
-  width: 350px;
+  width: 230px;
   font-size: 35px;
 }
- 
+
 
 .description-me {
   font-size: 30px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
   line-height: 45px;
 }
 
