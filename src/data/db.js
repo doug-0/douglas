@@ -33,5 +33,35 @@ export const arrayData = [
     id: 7,
     skill: "GitHub",
     image: "https://img.icons8.com/material-outlined/35/000000/github.png"
+  },
+  {
+    id: 8,
+    skill: "TypeScript",
+    image: "https://img.icons8.com/color/48/000000/typescript.png"
+  },
+  {
+    id: 9,
+    skill: "Node",
+    image: "https://img.icons8.com/fluency/48/000000/node-js.png"
+  },
+  {
+    id: 10,
+    skill: "Docker",
+    image: "https://img.icons8.com/fluency/50/000000/docker.png"
+  },
+  {
+    id: 11,
+    skill: "MySql",
+    image: "https://img.icons8.com/color/60/mysql-logo.png"
+  },
+  {
+    id: 12,
+    skill: "Express",
+    image: "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored-dark.svg"
+  },
+  {
+    id: 13,
+    skill: "Sequelize",
+    image: "https://symbols.getvecta.com/stencil_95/67_sequelize-icon.54c1e009e5.png"
   }
 ];

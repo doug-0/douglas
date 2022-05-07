@@ -4,7 +4,7 @@ import './SlideSkill.css';
 import './SlideSkillResponse.css';
 
 export default function SlideSkill() {
-  const colors = ["JavaScript", "HTML" , "CSS", "React", "Redux", "Git", "GitHub"];
+  const skill = ["JavaScript", "HTML", "CSS", "React", "Redux", "Git", "GitHub", "TypeScript", "Node", "Docker", "MySql", "Express", "Sequelize"];
   const delay = 3500;
   const [index, setIndex] = useState(0);
   const timeoutRef = useRef(null);
@@ -25,11 +25,11 @@ export default function SlideSkill() {
     timeoutRef.current = setTimeout(
       () =>
         setIndex((prevIndex) =>
-          prevIndex === colors.length - 1 ? 0 : prevIndex + 1
+          prevIndex === skill.length - 1 ? 0 : prevIndex + 1
         ),
       delay
     );
-    return () => {};
+    return () => { };
   }, [index]);
 
 
@@ -46,14 +46,14 @@ export default function SlideSkill() {
               data.map((el) => {
                 const { id, skill, image } = el;
                 return (
-                  <div key={ id } className="slide" >
+                  <div key={id} className="slide" >
                     <div className="div-skill">
                       <div className="div-content">
-                        <span className="span-skill"><b>{ skill }</b></span>
+                        <span className="span-skill"><b>{skill}</b></span>
                         <img
                           className="img-skill-icon"
-                          src={ image }
-                          alt={ skill }
+                          src={image}
+                          alt={skill}
                           width="45px"
                         />
                       </div>
@@ -65,7 +65,7 @@ export default function SlideSkill() {
           </div>
         </div>
         <div className="slideshowDots">
-          {colors.map((_, idx) => (
+          {skill.map((_, idx) => (
             <div
               key={idx}
               className={`slideshowDot${index === idx ? " active" : ""}`}
@@ -78,7 +78,7 @@ export default function SlideSkill() {
         </div>
       </div>
       <div className="current-knowledge">
-        <h6>Atualmente estou aprimorando meus conhecimentos em banco de dados SQL, NodeJS e TypeScript para o Back-end. 🌱</h6>
+        <h6>Atualmente estou aprimorando meus conhecimentos em banco de dados MongoDB e Python. 🌱</h6>
       </div>
     </>
   );
