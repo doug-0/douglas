@@ -9,7 +9,7 @@ export default function MyTyped() {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        'Sou um <b>Desenvolvedor</b><b style="color: #5151ee"> Front-End</b>!',
+        'Sou um <b>Desenvolvedor</b><b style="color: #5151ee"> Full-Stack</b>!',
         'Crio sites<b style="color: #11efff"> fantásticos!</b>',
         "Faço umas <b>telas</b> <b style='color: #fc6969'>bonitas</b> :)"
       ],

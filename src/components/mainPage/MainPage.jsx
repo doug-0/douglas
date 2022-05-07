@@ -21,16 +21,16 @@ export default function MainPage() {
             <br />
             <span className="my-name">Douglas Oliveira</span>
             <br />
-            <span className="greeting">Desenvolvedor Front-end</span>
+            <span className="greeting">Desenvolvedor Full-Stack</span>
             <MyTyped />
           </div>
           <div className="img-developer">
-            <img className="img-developer-icon" src={ developerImg } alt="developer-icon" width="800px"/>
+            <img className="img-developer-icon" src={developerImg} alt="developer-icon" width="800px" />
           </div>
         </div>
       </main>
       <div className="hr-center">
-        <hr className='hr-main'/>
+        <hr className='hr-main' />
       </div>
       <AboutMe />
       <Skills />
